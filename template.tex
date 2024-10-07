@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\setmainfont{Arial}
+
+% Définition des couleurs
+\definecolor{myblue}{RGB}{0, 102, 204}
+\definecolor{mygray}{RGB}{100, 100, 100}
+
+% En-tête et pied de page
+\pagestyle{fancy}
+\fancyhead[L]{\textcolor{myblue}{Documentation Utilisateur de BURO}}
+\fancyhead[C]{}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{\thepage}
+
+% Personnalisation des titres de section
+\titleformat{\section}{\large\bfseries\color{myblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\color{mygray}}{\thesubsection}{1em}{}
+
+% Commande pour des listes serrées
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Redéfinition de la commande d'image pour limiter la taille
+\setkeys{Gin}{width=0.8\textwidth} % Limite la largeur à 80% de la largeur du texte
+
+% Titre du document
+\title{\textbf{\Huge{\textcolor{myblue}{Documentation Utilisateur de BURO}}}}
+\author{Équipe BURO}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+% --- Introduction ---
+\section{Introduction}
+Bienvenue dans la documentation utilisateur de BURO, l'application de réservation d'espaces de travail. Cette documentation vous guidera à travers les fonctionnalités de l'application et vous expliquera comment l'utiliser efficacement.
+
+% --- Prise en Main de BURO ---
+\section{Prise en Main de BURO}
+
+\subsection{Ouvrez l'Application}
+- **Ouvrir** l'application BURO depuis l'application Power Apps.  
+- **Si vous n'avez pas Accès**, contactez l'équipe informatique.
+
+\par
+
+% --- Interface de l'Application ---
+\section{Interface de l'Application}
+À votre arrivée dans l'application BURO, vous verrez le plan global du siège. Vous pouvez choisir, avec le menu déroulant, d'accéder au RDC ou au 1er étage. L'image est découpée en deux : à droite, dans le petit menu, vous avez vos réservations à venir. Pour supprimer une réservation, appuyez sur l'icône de suppression.
+
+\subsection{Plan d'ensemble du siège}
+Voici le plan d'ensemble du siège :
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{./Img/BURO_Accueil.png}
+\caption{Plan d'ensemble du siège}
+\end{figure}
+
+\subsection{Réservation d'un Bureau}
+Pour réserver un bureau, déplacez-vous dans l'image. Cliquez sur l'aile que vous souhaitez réserver, puis sélectionnez le bureau, et enfin, cliquez sur le bouton **"Réserver"** sur le bureau que vous avez choisi.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{./Img/BURO_AileD.png}
+\caption{Sélection d'un bureau dans l'aile}
+\end{figure}
+
+\par
+
+% --- Assistance ---
+\section{Assistance}
+
+\subsection{FAQ}
+Consultez notre section FAQ dans l'application pour des réponses aux questions courantes.
+
+\subsection{Contacter le Support}
+Pour toute autre question ou problème, contactez notre équipe de support via l'onglet **"Assistance"** dans l'application ou par email à \href{mailto:jules.debee@getlink.com}{jules.debee@getlink.com}.
+
+% --- Conclusion ---
+\section{Conclusion}
+Merci d'utiliser BURO ! Nous espérons que cette application vous aidera à mieux gérer vos espaces de travail. Pour des suggestions ou des commentaires, n'hésitez pas à nous contacter.
+
+\end{document}
