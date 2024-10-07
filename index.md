@@ -1,7 +1,7 @@
 ---
 title: "Documentation Utilisateur de BURO"
 author: "Équipe BURO"
-date: "`date +%Y-%m-%d`"
+# date: "`date +%Y-%m-%d`"
 ---
 
 # Introduction
