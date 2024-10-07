@@ -1,6 +1,3 @@
 title: "Documentation Utilisateur de BURO"
 description: "Documentation pour l'application de réservation d'espaces de travail BURO"
 theme: jekyll-theme-tofolio
-
-sass:
-  style: compressed
