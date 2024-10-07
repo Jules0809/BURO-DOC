@@ -16,12 +16,12 @@ Bienvenue dans la documentation utilisateur de BURO, l'application de réservati
 À votre arrivée dans l'application BURO, vous verrez le plan global du siège. Vous pouvez choisir, avec le menu déroulant, d'accéder au RDC ou au 1er étage. L'image est découpée en deux : à droite, dans le petit menu, vous avez vos réservations à venir. Pour supprimer une réservation, appuyez sur l'icône de suppression.
 
 ## 2.1. Plan d'ensemble du siège
-![Plan d'ensemble du siège](./Img/BURO_Accueil.png)
+<!-- ![Plan d'ensemble du siège](./Img/BURO_Accueil.png) -->
 
 ## 2.2. Réservation d'un Bureau
 Pour réserver un bureau, déplacez-vous dans l'image. Cliquez sur l'aile que vous souhaitez réserver, puis sélectionnez le bureau, et enfin, cliquez sur le bouton "Réserver" sur le bureau que vous avez choisi.
 
-![Sélection d'un bureau dans l'aile](./Img/BURO_AileD.png)
+<!-- ![Sélection d'un bureau dans l'aile](./Img/BURO_AileD.png) -->
 
 <!-- ### 2.3. Bureau D15
 Voici à quoi ressemble le bureau D15.
